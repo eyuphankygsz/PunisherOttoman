@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: FallOfNation
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Eyvahlar olsun... Seni test etmek i\xE7in ba\u015Fa ge\xE7irmek bile tamam\u0131yla
+    bir hatayd\u0131."
+  - "Y\u0131llar boyu koruyup kollad\u0131\u011F\u0131m halk\u0131m\u0131n d\xFC\u015Ft\xFC\u011F\xFC
+    duruma bak."
+  - "Sen, hi\xE7bir \u015Feyi hak etmiyorsun! Utan\u0131yorum senden!"
+  - "Halk isyanda ve durduracak kadar g\xFCc\xFCm\xFCz yok."
+  - "Rezalet. Y\u0131k\u0131l kar\u015F\u0131mdan. Testimi ge\xE7emedin. Karde\u015Fin
+    Abd\xFClRezzak ba\u015Fa ge\xE7ecek."
+  RequestItem_Earn: []
+  RequestItem_Give: []
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 
+  EarnItemQuantity: 
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 0
+  RequestStat:
+    Stat:
+    - Palace: 0
+      Nation: -100
+      Personal: 0
+      Fear: 0
+    - Palace: 0
+      Nation: -100
+      Personal: 0
+      Fear: 0
+    - Palace: 0
+      Nation: -100
+      Personal: 0
+      Fear: 0

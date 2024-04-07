@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: DeveKafilesi
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Padi\u015Fah\u0131m, yeni ald\u0131\u011F\u0131m\u0131z deve kafilesi yolu kapatm\u0131\u015F.
+    Bu nedenle t\xFCccarlar yoldan ge\xE7emiyor."
+  - "Develeri \xC7EYREK fiyat\u0131na satmam\u0131z gerekiyor..."
+  RequestItem_Earn:
+  - {fileID: 11400000, guid: 1a48923dfddee3e45b7f2bbd22fbc070, type: 2}
+  RequestItem_Give: []
+  EarnItemWhenApproved: 01
+  GiveItemWhenApproved: 
+  EarnItemQuantity: c8000000
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 1
+  RequestStat:
+    Stat:
+    - Palace: -15
+      Nation: 20
+      Personal: 0
+      Fear: 0
+    - Palace: 15
+      Nation: -15
+      Personal: 10
+      Fear: 0
+    - Palace: 10
+      Nation: -20
+      Personal: -10
+      Fear: 15

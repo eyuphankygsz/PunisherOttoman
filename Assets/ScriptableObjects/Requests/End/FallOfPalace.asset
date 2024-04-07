@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: FallOfPalace
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "SEN! EVET SEN! Testimden ba\u015Far\u0131s\u0131z oldun..."
+  - "Bir <b>PAD\u0130\u015EAH</b> olarak saray mutlulu\u011Funu d\xFC\u015F\xFCnmen
+    gerekir."
+  - "Senin y\xFCz\xFCnden t\xFCm saray mutsuz ve huzursuz! Hepsi seni zehirlemeye
+    \xE7al\u0131\u015F\u0131yor!"
+  - "Rezalet. Y\u0131k\u0131l kar\u015F\u0131mdan. Testimi ge\xE7emedin. Karde\u015Fin
+    Abd\xFClRezzak ba\u015Fa ge\xE7ecek."
+  RequestItem_Earn: []
+  RequestItem_Give: []
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 
+  EarnItemQuantity: 
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 0
+  RequestStat:
+    Stat:
+    - Palace: -100
+      Nation: 0
+      Personal: 0
+      Fear: 0
+    - Palace: -100
+      Nation: 0
+      Personal: 0
+      Fear: 0
+    - Palace: -100
+      Nation: 0
+      Personal: 0
+      Fear: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: DenizKorsani
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Selam! Bendeniz Hayratl\u0131 Kaptan Burhan Efendi. Gelen raporlara g\xF6re,
+    korsanlar k\u0131y\u0131lara yakla\u015F\u0131yor ve ticaret gemilerini ya\u011Fmal\u0131yorlar."
+  - "Bir \xFCcret kar\u015F\u0131l\u0131\u011F\u0131nda seni bu durumdan kurtarabilirim."
+  - "Dert etme, herkes d\xFCzg\xFCn \xFClke y\xF6netemeyebilir..."
+  - "Dedi\u011Fim gibi, 1000 $ kar\u015F\u0131l\u0131\u011F\u0131nda sana yard\u0131mc\u0131
+    olabilirim. \xDCstelik bu # senin olabilir."
+  RequestItem_Earn:
+  - {fileID: 11400000, guid: 93ed6f99bd2152342a32e4aee6ddf710, type: 2}
+  RequestItem_Give:
+  - {fileID: 11400000, guid: 1a48923dfddee3e45b7f2bbd22fbc070, type: 2}
+  EarnItemWhenApproved: 01
+  GiveItemWhenApproved: 01
+  EarnItemQuantity: 01000000
+  GiveItemQuantity: e8030000
+  EarnItemNoMatterWhat: 
+  RequestType: 1
+  RequestStat:
+    Stat:
+    - Palace: 12
+      Nation: 12
+      Personal: -15
+      Fear: -10
+    - Palace: -10
+      Nation: -15
+      Personal: 15
+      Fear: 15
+    - Palace: -15
+      Nation: -18
+      Personal: 10
+      Fear: 15

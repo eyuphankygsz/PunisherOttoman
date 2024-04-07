@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: PapanSorunu
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Efendim, saray \xE7evresindeki han\u0131mlar, yeni moda \xE7\u0131lg\u0131nl\u0131\u011F\u0131
+    olarak papa\u011Fan beslemeye ba\u015Flad\u0131lar ve bu papa\u011Fanlar saray\u0131n
+    sessizli\u011Fini bozuyor."
+  - "Bu papa\u011Fanlar\u0131 \xF6ld\xFCrmek istiyoruz. Ne yapal\u0131m?"
+  RequestItem_Earn: []
+  RequestItem_Give: []
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 
+  EarnItemQuantity: 
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 0
+  RequestStat:
+    Stat:
+    - Palace: 15
+      Nation: -16
+      Personal: -10
+      Fear: 10
+    - Palace: -15
+      Nation: 15
+      Personal: 10
+      Fear: -15
+    - Palace: -20
+      Nation: 10
+      Personal: -10
+      Fear: 16

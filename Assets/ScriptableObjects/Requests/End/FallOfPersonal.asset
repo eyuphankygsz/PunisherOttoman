@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: FallOfPersonal
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "\u015Eu haline bak... Belki de seni ba\u015Fa ge\xE7irmeyi d\xFC\u015F\xFCnmek
+    bile bir hatayd\u0131."
+  - "Padi\u015Fah dedi\u011Fin \xF6nce kendini mutlu edecek. Kendinden \xE7ok di\u011Felerini
+    d\xFC\u015F\xFCnd\xFCn ve \u015Fu an bu haldesin."
+  - "Sana bunlar\u0131 ben \xF6\u011Fretmedim. \xD6nce kendini d\xFC\u015F\xFCnmen
+    gerekiyor."
+  - "Hey bir saniye... Sakin ol ve k\u0131l\u0131c\u0131 yere b\u0131rak!"
+  - HAYIR DUR!
+  - "HEK\u0130M BEYLER! KO\u015EUN!"
+  - "O\u011ELUM... BUNU KEND\u0130NE NEDEN YAPTIN.."
+  - "Neyse zaten karde\u015Fin Abd\xFClRezzak ba\u015Fa ge\xE7ecekti."
+  RequestItem_Earn: []
+  RequestItem_Give: []
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 
+  EarnItemQuantity: 
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 0
+  RequestStat:
+    Stat:
+    - Palace: 0
+      Nation: 0
+      Personal: -100
+      Fear: 0
+    - Palace: 0
+      Nation: 0
+      Personal: -100
+      Fear: 0
+    - Palace: 0
+      Nation: 0
+      Personal: -100
+      Fear: 0

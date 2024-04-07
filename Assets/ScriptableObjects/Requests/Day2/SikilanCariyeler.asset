@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: SikilanCariyeler
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "H\xFCnkar\u0131m, cariyelerinizden birka\xE7\u0131 art\u0131k burada ya\u015Famak
+    istemiyor ve ailelerine d\xF6nmek istiyorlar."
+  - "Ben de o k\u0131zlara \xE7ok \xFCz\xFCl\xFCyorum. Bence onlara merhametinizi
+    g\xF6sterin."
+  - "Cariyeler onlar\u0131 serbest b\u0131rakman\u0131z kar\u015F\u0131l\u0131\u011F\u0131nda
+    sizlere 1200 # verecekler."
+  RequestItem_Earn:
+  - {fileID: 11400000, guid: 1a48923dfddee3e45b7f2bbd22fbc070, type: 2}
+  RequestItem_Give: []
+  EarnItemWhenApproved: 01
+  GiveItemWhenApproved: 
+  EarnItemQuantity: b0040000
+  GiveItemQuantity: 
+  EarnItemNoMatterWhat: 
+  RequestType: 1
+  RequestStat:
+    Stat:
+    - Palace: -30
+      Nation: 15
+      Personal: -20
+      Fear: 0
+    - Palace: 20
+      Nation: -12
+      Personal: 15
+      Fear: 0
+    - Palace: -18
+      Nation: -16
+      Personal: -22
+      Fear: 20

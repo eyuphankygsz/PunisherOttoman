@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: EngellilereYardim
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Padi\u015Fah\u0131m, halk\u0131m\u0131zda ya\u015Fayan engelli bireyler yard\u0131m
+    istiyor."
+  - "Ben de onlar i\xE7in sizden 450 $ istemeye geldim."
+  RequestItem_Earn: []
+  RequestItem_Give:
+  - {fileID: 11400000, guid: 1a48923dfddee3e45b7f2bbd22fbc070, type: 2}
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 01
+  EarnItemQuantity: 
+  GiveItemQuantity: c2010000
+  EarnItemNoMatterWhat: 
+  RequestType: 1
+  RequestStat:
+    Stat:
+    - Palace: -15
+      Nation: 18
+      Personal: 10
+      Fear: -10
+    - Palace: 10
+      Nation: -15
+      Personal: -6
+      Fear: -5
+    - Palace: 0
+      Nation: -20
+      Personal: -10
+      Fear: 15

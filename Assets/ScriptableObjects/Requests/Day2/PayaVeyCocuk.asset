@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702c69569e1733d4d9f0eef3449b8377, type: 3}
+  m_Name: PayaVeyCocuk
+  m_EditorClassIdentifier: 
+  RequestDialog:
+  - "Melaba, baya \u015Fikye veliy mi\u015Fin? ( 100 $ ) "
+  RequestItem_Earn: []
+  RequestItem_Give:
+  - {fileID: 11400000, guid: 1a48923dfddee3e45b7f2bbd22fbc070, type: 2}
+  EarnItemWhenApproved: 
+  GiveItemWhenApproved: 01
+  EarnItemQuantity: 
+  GiveItemQuantity: 64000000
+  EarnItemNoMatterWhat: 
+  RequestType: 1
+  RequestStat:
+    Stat:
+    - Palace: -10
+      Nation: 15
+      Personal: 10
+      Fear: -15
+    - Palace: 10
+      Nation: -20
+      Personal: -15
+      Fear: 10
+    - Palace: -20
+      Nation: -20
+      Personal: -25
+      Fear: 25
